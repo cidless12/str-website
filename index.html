@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Youtube clone</title>
+
+    <link rel="icon" href="/ytClone/ytClone-icon/PewDiePielogo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/style/general.css">
+    <link rel="stylesheet" href="/style/header.css">
+    <link rel="stylesheet" href="/style/left-section.css">
+    <link rel="stylesheet" href="/style/middle-section.css">
+    <link rel="stylesheet" href="/style/right-section.css">
+    <link rel="stylesheet" href="/style/sidebar.css">
+    <link rel="stylesheet" href="/style/video.css">
+
+  </head>
+  <body>
+
+    <header class="mast-head-con">
+
+      <div class="left-section">
+        <div class="hamburger-container">
+          <button class="hamburger-button">
+            <div class="hamburger-icon-d">
+              <img class="hamburger-icon-img" src="/ytClone-icon/hamburger-menu.svg" alt="Hamburger Menu">
+            </div>
+          </button>
+        </div>
+        <div class="youtube-logo-d">
+          <img class="youtube-logo-img" src="/ytClone-icon/youtube-logo.svg" alt="Youtube logo">
+        </div>
+      </div>
+
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon-img" src="/ytClone-icon/search.svg" alt="Search">
+          <span class="tool-tip">Search</span>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon-img" src="/ytClone-icon/voice-search-icon.svg" alt="voice search">
+          <span class="tool-tip">Search with your voice</span>
+        </button>
+      </div>
+
+      <div class="right-section">
+        <div class="upload-d">
+          <button class="upload-button">
+              <img class="upload-img" src="/ytClone-icon/upload.svg" alt="Upload">
+              <span class="tool-tip">Create</span>
+          </button>
+        </div>
+
+        <div class="youtube-apps-d">
+          <button class="youtube-apps-button">
+            <img class="youtube-apps-img" src="/ytClone-icon/youtube-apps.svg" alt="Upload">
+            <span class="tool-tip">Youtube apps</span>
+          </button>
+        </div>
+
+        <div class="notifications-d">
+          <button class="notifications-button">
+            <span class="tool-tip">Notifications</span>
+            <div class="unread-count">
+              <span class="notifications-counted">24</span>
+              <span class="unread-not">Unread Notifications</span>
+            </div>
+            <img class="notifications-icon-img" src="/ytClone-icon/notifications.svg" alt="Upload">
+          </button>
+        </div>
+
+        <div class="profile-picture-container-d">
+          <div class="profile-picture-d">
+            <img class="profile-picture-img" src="/Channel-picture/C_Hello_World_Program.png" alt="Upload">
+          </div>
+          <div class="profile-con-preview-d">
+            <div class="profile-preview-d">
+              <img class="profile-preview-img" src="/Channel-picture/C_Hello_World_Program.png">
+            </div>
+            <div class="profile-preview-info">
+              <div class="account-name-d">
+                <div class="account-name-s">Account name</div>
+              </div>            
+              <div class="account-setting-d">
+                <div class="account-setting-s">Account setting</div>
+              </div>
+              <div class="account-info-d">
+                <div class="account-info-s">Account info</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>      
+    </header>
+
+    <nav class="nav-sidebar-con">
+      <div class="sidebar-con">
+        <div class="sidebar-link">
+          <img src="/ytClone-icon/home.svg">
+          <span class="sidebar-name">Home</span>
+        </div>
+        <div class="sidebar-link">
+          <img src="/ytClone-icon/explore.svg">
+          <span class="sidebar-name">Explore</span>
+        </div>
+        <div class="sidebar-link">
+          <img src="/ytClone-icon/subscriptions.svg">
+          <span class="sidebar-name">Subscriptions</span>
+        </div>
+        <div class="sidebar-link">
+          <img src="/ytClone-icon/originals.svg">
+          <span class="sidebar-name">Originals</span>
+        </div>
+        <div class="sidebar-link">
+          <img src="/ytClone-icon/youtube-music.svg">
+          <span class="sidebar-name">Youtube Music</span>
+        </div>
+        <div class="sidebar-link">
+          <img src="/ytClone-icon/library.svg">
+          <span class="sidebar-name">Library</span>
+        </div>
+      </div>
+    </nav>
+
+
+    <main>     
+      <section class="grid-0-container-sec">
+        
+        <div class="f-container-flex-d">
+        <!--grid section-->
+
+        
+          <div class="video-card-container">
+            <div class="video-card-con">
+
+              <div class="video-thumbnail-d">
+                <a class="video-thumbnail-a" href="https://www.youtube.com" title="Programming">
+                  <img class="video-thumbnail-img" src="/ytClone-thumbnail/js.jpg" alt="Programming">
+                </a>
+              </div>
+
+              <div class="video-info-container-d">
+                <div class="video-channel-picture-d">
+                  <a class="video-channel-picture-a" href="https://www.youtube.com/PewDiePie">
+                    <img class="video-channel-picture-img" src="/Channel-picture/C_Hello_World_Program.png" alt="Coding">
+                  </a>
+                </div>
+                <div class="video-info-con-d">
+                  <div class="video-con-d">
+
+                    <div style="margin-bottom: 15px">
+                      <a class="video-title-a" href="">
+                        <div class="video-title-d">
+                          Learning HTML and CSS with the help of youtube channel SuperSimpleDev thanks bao.
+                        </div>
+                      </a>
+                    </div>
+
+                    <div style="margin-bottom: 2px;">
+                      <div class="video-author-con-d">
+                        <a class="video-author-a" href="https://www.youtube.com/PewDiePie">
+                          PewDiePie
+                        </a>
+                        <div class="check-dot-d">
+                          <img class="check-dot-img" src="/ytClone-icon/check-circle-svgrepo-com.svg" alt="Check">
+                        </div>
+                      </div>
+                    </div>
+
+                    <div style="display: flex;">
+                      <span class="video-views-d">3M views</span>
+                      <span class="video-stats-con">
+                        <span class="video-dot">&middot;</span>
+                        10 years ago.
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+          <div class="video-card-container">
+            <div class="video-card-con">
+
+              <div class="video-thumbnail-d">
+                <a class="video-thumbnail-a" href="https://www.youtube.com" title="Programming">
+                  <img class="video-thumbnail-img" src="/ytClone-thumbnail/js.jpg" alt="Programming">
+                </a>
+              </div>
+
+              <div class="video-info-container-d">
+                <div class="video-channel-picture-d">
+                  <a class="video-channel-picture-a" href="https://www.youtube.com/PewDiePie">
+                    <img class="video-channel-picture-img" src="/Channel-picture/C_Hello_World_Program.png" alt="Coding">
+                  </a>
+                </div>
+                <div class="video-info-con-d">
+                  <div class="video-con-d">
+
+                    <div style="margin-bottom: 15px">
+                      <a class="video-title-a" href="">
+                        <div class="video-title-d">
+                          SuperSimpleDev tutorial about HTML and CSS 
+                        </div>
+                      </a>
+                    </div>
+
+                    <div style="margin-bottom: 2px;">
+                      <div class="video-author-con-d">
+                        <a class="video-author-a" href="https://www.youtube.com/PewDiePie">
+                          PewDiePie
+                        </a>
+                        <div class="check-dot-d">
+                          <img class="check-dot-img" src="/ytClone-icon/check-circle-svgrepo-com.svg" alt="Check">
+                        </div>
+                      </div>
+                    </div>
+
+                    <div style="display: flex;">
+                      <span class="video-views-d">3M views</span>
+                      <span class="video-stats-con">
+                        <span class="video-dot">&middot;</span>
+                        10 years ago.
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+
+          <div class="video-card-container">
+            <div class="video-card-con">
+
+              <div class="video-thumbnail-d">
+                <a class="video-thumbnail-a" href="https://www.youtube.com" title="Programming">
+                  <img class="video-thumbnail-img" src="/ytClone-thumbnail/js.jpg" alt="Programming">
+                </a>
+              </div>
+
+              <div class="video-info-container-d">
+                <div class="video-channel-picture-d">
+                  <a class="video-channel-picture-a" href="https://www.youtube.com/PewDiePie">
+                    <img class="video-channel-picture-img" src="/Channel-picture/C_Hello_World_Program.png" alt="Coding">
+                  </a>
+                </div>
+                <div class="video-info-con-d">
+                  <div class="video-con-d">
+
+                    <div style="margin-bottom: 15px">
+                      <a class="video-title-a" href="">
+                        <div class="video-title-d">
+                          Learning HTML and CSS with the help of youtube channel SuperSimpleDev thanks bao.
+                        </div>
+                      </a>
+                    </div>
+
+                    <div style="margin-bottom: 2px;">
+                      <div class="video-author-con-d">
+                        <a class="video-author-a" href="https://www.youtube.com/PewDiePie">
+                          PewDiePie
+                        </a>
+                        <div class="check-dot-d">
+                          <img class="check-dot-img" src="/ytClone-icon/check-circle-svgrepo-com.svg" alt="Check">
+                        </div>
+                      </div>
+                    </div>
+
+                    <div style="display: flex;">
+                      <span class="video-views-d">3M views</span>
+                      <span class="video-stats-con">
+                        <span class="video-dot">&middot;</span>
+                        10 years ago.
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+
+          <div class="video-card-container">
+            <div class="video-card-con">
+
+              <div class="video-thumbnail-d">
+                <a class="video-thumbnail-a" href="https://www.youtube.com" title="Programming">
+                  <img class="video-thumbnail-img" src="/ytClone-thumbnail/js.jpg" alt="Programming">
+                </a>
+              </div>
+
+              <div class="video-info-container-d">
+                <div class="video-channel-picture-d">
+                  <a class="video-channel-picture-a" href="https://www.youtube.com/PewDiePie">
+                    <img class="video-channel-picture-img" src="/Channel-picture/C_Hello_World_Program.png" alt="Coding">
+                  </a>
+                </div>
+                <div class="video-info-con-d">
+                  <div class="video-con-d">
+
+                    <div style="margin-bottom: 15px">
+                      <a class="video-title-a" href="">
+                        <div class="video-title-d">
+                          Learning HTML and CSS with the help of youtube channel SuperSimpleDev thanks bao.
+                        </div>
+                      </a>
+                    </div>
+
+                    <div style="margin-bottom: 2px;">
+                      <div class="video-author-con-d">
+                        <a class="video-author-a" href="https://www.youtube.com/PewDiePie">
+                          PewDiePie
+                        </a>
+                        <div class="check-dot-d">
+                          <img class="check-dot-img" src="/ytClone-icon/check-circle-svgrepo-com.svg" alt="Check">
+                        </div>
+                      </div>
+                    </div>
+
+                    <div style="display: flex;">
+                      <span class="video-views-d">3M views</span>
+                      <span class="video-stats-con">
+                        <span class="video-dot">&middot;</span>
+                        10 years ago.
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+
+
+          <div class="f-container-flex-d">
+          <!--grid section-->
+
+        
+            <div class="video-card-container">
+              <div class="video-card-con">
+
+                <div class="video-thumbnail-d">
+                  <a class="video-thumbnail-a" href="https://www.youtube.com" title="Programming">
+                    <img class="video-thumbnail-img" src="/ytClone-thumbnail/js.jpg" alt="Programming">
+                  </a>
+                </div>
+
+                <div class="video-info-container-d">
+                  <div class="video-channel-picture-d">
+                    <a class="video-channel-picture-a" href="https://www.youtube.com/PewDiePie">
+                      <img class="video-channel-picture-img" src="/Channel-picture/C_Hello_World_Program.png" alt="Coding">
+                    </a>
+                  </div>
+                  <div class="video-info-con-d">
+                    <div class="video-con-d">
+
+                      <div style="margin-bottom: 15px">
+                        <a class="video-title-a" href="">
+                          <div class="video-title-d">
+                            Learning HTML and CSS with the help of youtube channel SuperSimpleDev thanks bao.
+                          </div>
+                        </a>
+                      </div>
+
+                      <div style="margin-bottom: 2px;">
+                        <div class="video-author-con-d">
+                          <a class="video-author-a" href="https://www.youtube.com/PewDiePie">
+                            PewDiePie
+                          </a>
+                          <div class="check-dot-d">
+                            <img class="check-dot-img" src="/ytClone-icon/check-circle-svgrepo-com.svg" alt="Check">
+                          </div>
+                        </div>
+                      </div>
+
+                      <div style="display: flex;">
+                        <span class="video-views-d">3M views</span>
+                        <span class="video-stats-con">
+                          <span class="video-dot">&middot;</span>
+                          10 years ago.
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+
+            <div class="video-card-container">
+              <div class="video-card-con">
+  
+                <div class="video-thumbnail-d">
+                  <a class="video-thumbnail-a" href="https://www.youtube.com" title="Programming">
+                    <img class="video-thumbnail-img" src="/ytClone-thumbnail/js.jpg" alt="Programming">
+                  </a>
+                </div>
+  
+                <div class="video-info-container-d">
+                  <div class="video-channel-picture-d">
+                    <a class="video-channel-picture-a" href="https://www.youtube.com/PewDiePie">
+                      <img class="video-channel-picture-img" src="/Channel-picture/C_Hello_World_Program.png" alt="Coding">
+                    </a>
+                  </div>
+                  <div class="video-info-con-d">
+                    <div class="video-con-d">
+  
+                      <div style="margin-bottom: 15px">
+                        <a class="video-title-a" href="">
+                          <div class="video-title-d">
+                            Learning HTML and CSS with the help of youtube channel SuperSimpleDev thanks bao.
+                          </div>
+                        </a>
+                      </div>
+  
+                      <div style="margin-bottom: 2px;">
+                        <div class="video-author-con-d">
+                          <a class="video-author-a" href="https://www.youtube.com/PewDiePie">
+                            PewDiePie
+                          </a>
+                          <div class="check-dot-d">
+                            <img class="check-dot-img" src="/ytClone-icon/check-circle-svgrepo-com.svg" alt="Check">
+                          </div>
+                        </div>
+                      </div>
+  
+                      <div style="display: flex;">
+                        <span class="video-views-d">3M views</span>
+                        <span class="video-stats-con">
+                          <span class="video-dot">&middot;</span>
+                          10 years ago.
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+  
+              </div>
+            </div>
+  
+  
+  
+            <div class="video-card-container">
+              <div class="video-card-con">
+  
+                <div class="video-thumbnail-d">
+                  <a class="video-thumbnail-a" href="https://www.youtube.com" title="Programming">
+                    <img class="video-thumbnail-img" src="/ytClone-thumbnail/js.jpg" alt="Programming">
+                  </a>
+                </div>
+  
+                <div class="video-info-container-d">
+                  <div class="video-channel-picture-d">
+                    <a class="video-channel-picture-a" href="https://www.youtube.com/PewDiePie">
+                      <img class="video-channel-picture-img" src="/Channel-picture/C_Hello_World_Program.png" alt="Coding">
+                    </a>
+                  </div>
+                  <div class="video-info-con-d">
+                    <div class="video-con-d">
+  
+                      <div style="margin-bottom: 15px">
+                        <a class="video-title-a" href="">
+                          <div class="video-title-d">
+                            Learning HTML and CSS with the help of youtube channel SuperSimpleDev thanks bao.
+                          </div>
+                        </a>
+                      </div>
+  
+                      <div style="margin-bottom: 2px;">
+                        <div class="video-author-con-d">
+                          <a class="video-author-a" href="https://www.youtube.com/PewDiePie">
+                            PewDiePie
+                          </a>
+                          <div class="check-dot-d">
+                            <img class="check-dot-img" src="/ytClone-icon/check-circle-svgrepo-com.svg" alt="Check">
+                          </div>
+                        </div>
+                      </div>
+  
+                      <div style="display: flex;">
+                        <span class="video-views-d">3M views</span>
+                        <span class="video-stats-con">
+                          <span class="video-dot">&middot;</span>
+                          10 years ago.
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+  
+              </div>
+            </div>
+  
+  
+  
+            <div class="video-card-container">
+              <div class="video-card-con">
+  
+                <div class="video-thumbnail-d">
+                  <a class="video-thumbnail-a" href="https://www.youtube.com" title="Programming">
+                    <img class="video-thumbnail-img" src="/ytClone-thumbnail/js.jpg" alt="Programming">
+                  </a>
+                </div>
+  
+                <div class="video-info-container-d">
+                  <div class="video-channel-picture-d">
+                    <a class="video-channel-picture-a" href="https://www.youtube.com/PewDiePie">
+                      <img class="video-channel-picture-img" src="/Channel-picture/C_Hello_World_Program.png" alt="Coding">
+                    </a>
+                  </div>
+                  <div class="video-info-con-d">
+                    <div class="video-con-d">
+  
+                      <div style="margin-bottom: 15px">
+                        <a class="video-title-a" href="">
+                          <div class="video-title-d">
+                            Learning HTML and CSS with the help of youtube channel SuperSimpleDev thanks bao.
+                          </div>
+                        </a>
+                      </div>
+  
+                      <div style="margin-bottom: 2px;">
+                        <div class="video-author-con-d">
+                          <a class="video-author-a" href="https://www.youtube.com/PewDiePie">
+                            PewDiePie
+                          </a>
+                          <div class="check-dot-d">
+                            <img class="check-dot-img" src="/ytClone-icon/check-circle-svgrepo-com.svg" alt="Check">
+                          </div>
+                        </div>
+                      </div>
+  
+                      <div style="display: flex;">
+                        <span class="video-views-d">3M views</span>
+                        <span class="video-stats-con">
+                          <span class="video-dot">&middot;</span>
+                          10 years ago.
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+  
+              </div>
+            </div>
+
+          </div>
+
+
+
+      </section>
+    </main>
+    
+  </body>
+</html>

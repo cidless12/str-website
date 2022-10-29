@@ -1,0 +1,27 @@
+.mast-head-con{
+  height: 55px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(218, 216,216);
+
+
+  position: fixed;
+  background-color: white;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 200;
+}
+
+
+
+
+
+
+
+

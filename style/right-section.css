@@ -1,0 +1,308 @@
+.right-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-left: 24px;
+  margin-right: 10px;
+
+  flex-shrink: 0;
+}
+
+
+
+.upload-d{
+  padding: 0px 8px;
+}
+
+.upload-button{
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 80px;
+}
+
+
+.upload-img{
+  height: 24px;
+}
+
+
+.youtube-apps-d{
+  padding: 0px 8px;
+}
+
+.youtube-apps-button{
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  border: none;
+  border-radius: 80px;
+}
+
+.youtube-apps-img{
+  height: 24px;
+}
+
+
+.notifications-d{
+  padding: 0px 8px;
+}
+
+
+.notifications-button{
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 80px;
+}
+
+.notifications-icon-img{
+  height: 24px;
+}
+
+
+
+.notifications-d{
+  position: relative;
+}
+
+.notifications-counted{
+  position: absolute;
+  background-color: red;
+  color: white;
+  font-size: 0.6rem;
+  padding: 1px 2px;
+  border-radius: 8px;
+  top: 2px;
+  right: -1px;
+}
+
+
+
+.unread-count{
+  position: relative;
+}
+
+
+.unread-count .unread-not{
+  position: absolute;
+  background-color: gray;
+  color: white;
+  white-space: nowrap;
+  padding: 4px;
+  border-radius: 2px;
+  top: -13px;
+  left: -85px;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.15s;
+}
+
+
+.unread-count:hover .unread-not{
+  opacity: 1;
+}
+
+
+
+.profile-picture-container-d{
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+
+.profile-picture-d{
+  width: 32px;
+  height: 32px;
+}
+
+.profile-picture-img{
+  width: 100%;
+  height: 100%;
+  border-radius: 64px;
+  cursor: pointer;
+}
+
+
+.profile-picture-container-d,
+.upload-button,
+.youtube-apps-button,
+.notifications-button{
+  position: relative;
+}
+
+
+.upload-button .tool-tip{
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding: 4px;
+  border-radius: 2px;
+  bottom: -24px;
+  left: -2px;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.15s;
+}
+
+
+.youtube-apps-button .tool-tip{
+  position: absolute;
+  background-color: gray;
+  color: white;
+  border-radius: 2px;
+  padding: 4px;
+  white-space: nowrap;
+  bottom: -24px;
+  left: -15px;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.15s;
+}
+
+
+.notifications-button .tool-tip{
+  position: absolute;
+  background-color: gray;
+  color: white;
+  border-radius: 2px;
+  padding: 4px;
+  bottom: -24px;
+  left: -15px;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.15s;
+}
+
+
+.profile-picture-container-d{
+  position: relative;
+}
+
+
+.profile-picture-container-d .profile-con-preview-d{
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 0px 2px rgb(90, 90, 90);
+  top: 0px;
+  right: 42px;
+  border-radius: 2px;
+  padding: 10px;
+  height: 170px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.15s;
+}
+
+
+
+.profile-picture-container-d:hover .profile-con-preview-d{
+  opacity: 1;
+}
+
+.profile-preview-d{
+  height: 50px;
+  width: 50px;
+}
+
+
+
+.profile-preview-img{
+  width: 100%;
+  height: 100%;
+  border-radius: 70px;
+}
+
+
+
+.profile-preview-info{
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+.account-name-d{
+  margin-bottom: 8px;
+  display: flex;
+}
+
+
+
+.account-name-s{
+  border-width: 1px;
+  border-color: gray;
+  border-style: solid;
+  padding: 4px;
+  border-radius: 8px;
+  font-size: small;
+  font-family: roboto, arial, sans-serif;
+  transition: 0.1s;
+}
+
+
+
+.account-setting-d{
+  margin-bottom: 8px;
+  display: flex;
+}
+
+.account-setting-s{
+  border-width: 1px;
+  border-color: gray;
+  border-style: solid;
+  padding: 4px;
+  border-radius: 8px;
+  font-size: small;
+  font-family: roboto, arial, sans-serif;
+  transition: 0.1s;
+}
+
+
+.account-info-d{
+  margin-bottom: 8px;
+  display: flex;
+}
+
+
+.account-info-s{
+  border-width: 1px;
+  border-color: gray;
+  border-style: solid;
+  padding: 4px;
+  border-radius: 8px;
+  font-size: small;
+  font-family: roboto, arial, sans-serif;
+  transition: 0.1s;
+}
+
+
+.account-name-s:hover,
+.account-setting-s:hover,
+.account-info-s:hover{
+  background-color: aqua;
+  color: white;
+  border-color: aqua;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+}
+
+
+
+
+
+.upload-button:hover .tool-tip,
+.youtube-apps-button:hover .tool-tip,
+.notifications-button:hover .tool-tip{
+  opacity: 1;
+}
+
+
